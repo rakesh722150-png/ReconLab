@@ -24,6 +24,16 @@ The tool has **built-in authorization guard** — it will refuse any public targ
 - 📄 **Report Generator** — Markdown reports
 - 🛡️ **Authorization Guard** — Private IPs only
 
+## 📸 Screenshots
+
+### Full Recon Scan
+![Full Scan](docs/screenshots/full-scan.png)
+*Complete reconnaissance scan — port scanning, tech fingerprinting, security header analysis, and directory discovery.*
+
+### Generated Report
+![Report Output](docs/screenshots/report-output.png)
+*Auto-generated markdown report with all findings.*
+
 ## 🚀 Installation
 
 ### Requirements
@@ -103,7 +113,7 @@ python reconlab.py 127.0.0.1 --skip-dirs
   [-] X-Frame-Options - Clickjacking risk
 
 [4/4] Directory Discovery...
-  [+] /images - 200
+  [+] /.git - 301
 
 [+] Recon complete!
 [+] Report: reports/report.md
